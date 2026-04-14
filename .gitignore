@@ -1,0 +1,44 @@
+# Models (too large for VCS)
+models/
+
+# Python virtualenv
+.venv/
+
+# Hugging Face dataset + model cache
+.hf_cache/
+
+# Build artifacts — C / C++
+scripts/inference/c/infer
+scripts/inference/cpp/infer
+
+# Build artifacts — Java
+scripts/inference/java/target/
+
+# Build artifacts — C#
+scripts/inference/csharp/OnnxInference/bin/
+scripts/inference/csharp/OnnxInference/obj/
+
+# Build artifacts — Rust
+scripts/inference/rust/target/
+
+# Ruby bundler
+scripts/inference/ruby/.bundle/
+scripts/inference/ruby/vendor/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Misc
+*.log
+*.tmp
