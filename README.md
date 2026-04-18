@@ -1,8 +1,8 @@
 # ONNX Runtime Language Energy Study
 
-Empirical study measuring energy consumption of ONNX Runtime inference across 7 host languages, 5 models, 5 inference volumes, and 2 execution phases. The runtime (ORT) is held constant across all runs; only the host language binding changes.
+Empirical study measuring energy consumption of ONNX Runtime inference across 7 host languages, 5 models, 4 inference volumes, and 2 execution phases. The runtime (ORT) is held constant across all runs; only the host language binding changes.
 
-**Design:** 7 languages × 5 models × 5 volumes × 2 phases × 5 reps = **1,750 runs**
+**Design:** 7 languages × 5 models × 4 volumes × 2 phases × 5 reps = **1,400 runs**
 
 ---
 
@@ -83,7 +83,7 @@ This performs every step in order:
 3. Downloads all 5 ONNX models to `models/` via `scripts/download_models.py`
 4. Prepares input tensors to `inputs/` via `scripts/prepare_inputs.py`
 5. Builds C, C++, Java (Maven), C# (.NET), and Rust binaries; installs Ruby gem
-6. Runs `measure.sh` — the full 1,750-run experiment
+6. Runs `measure.sh` — the full 1,400-run experiment
 
 The script is **fail-fast**: any step failure aborts immediately. Missing optional runtimes (Rust, .NET) produce a clear error.
 
@@ -161,7 +161,7 @@ models/                 # downloaded ONNX files (created by download_models.py)
 inputs/                 # .npy input tensors (created by prepare_inputs.py)
 lib/onnxruntime/        # shared ORT native library used by C, C++, Rust, Ruby
 data/
-  run_order.json        # generated once; defines the 1750-run order
+  run_order.json        # generated once; defines the 1400-run order
   measurements.json     # results (appended per run)
 logs/                   # per-run stderr logs (optional)
 ```
