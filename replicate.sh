@@ -110,6 +110,9 @@ ok "C# binary built"
 # ---------------------------------------------------------------------------
 log "Step 5e: Rust (cargo)"
 command -v cargo &>/dev/null || die "cargo not found. Install: curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh"
+# ort-sys links ONNX Runtime via ORT_LIB_PATH; pass it explicitly because
+# cargo reads .cargo/config.toml from the cwd, not from --manifest-path's dir.
+ORT_LIB_PATH="$REPO_ROOT/lib/onnxruntime/lib" ORT_PREFER_DYNAMIC_LINK=1 \
 ORT_DYLIB_PATH="$ORT_DYLIB" \
 cargo build --release \
     --manifest-path "$SCRIPTS/inference/rust/Cargo.toml"

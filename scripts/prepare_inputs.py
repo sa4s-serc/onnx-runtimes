@@ -22,7 +22,7 @@ REPO_ROOT  = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 INPUTS_DIR = os.path.join(REPO_ROOT, "inputs")
 HF_CACHE   = os.path.join(REPO_ROOT, ".hf_cache")
 
-for sub in ("minilm", "modernbert", "gpt2", "vit", "fashionclip"):
+for sub in ("minilm", "modernbert", "gpt2", "vit", "fashionclip", "pythia"):
     os.makedirs(os.path.join(INPUTS_DIR, sub), exist_ok=True)
 
 
@@ -91,6 +91,31 @@ def prepare_gpt2():
 
 
 # ---------------------------------------------------------------------------
+# 3b. Pythia-160m  (WikiText-103, seq_len=64) — second autoregressive decoder
+# ---------------------------------------------------------------------------
+def prepare_pythia():
+    print("Preparing pythia inputs...")
+    tok = AutoTokenizer.from_pretrained("EleutherAI/pythia-160m", cache_dir=HF_CACHE)
+    if tok.pad_token is None:
+        tok.pad_token = tok.eos_token
+    ds = load_dataset("Salesforce/wikitext", "wikitext-103-raw-v1", split="test",
+                      cache_dir=HF_CACHE)
+    samples = []
+    for row in ds:
+        text = row["text"].strip()
+        if len(text) > 20:
+            samples.append(text)
+        if len(samples) >= 10:
+            break
+    for i, s in enumerate(samples):
+        enc = tok(s, max_length=64, truncation=True, padding="max_length",
+                  return_tensors="np")
+        np.save(os.path.join(INPUTS_DIR, "pythia", f"{i}.npy"),
+                enc["input_ids"].astype(np.int64))
+    print(f"  Saved 10 pythia tensors shape (1,64) int64")
+
+
+# ---------------------------------------------------------------------------
 # 4. vit-face-expression  (FER-2013 via clip-benchmark, 224x224 float32)
 # ---------------------------------------------------------------------------
 def prepare_vit():
@@ -144,12 +169,13 @@ def prepare_fashionclip():
 if __name__ == "__main__":
     prepare_minilm()
     prepare_gpt2()
+    prepare_pythia()
     prepare_modernbert()
     prepare_vit()
     prepare_fashionclip()
 
     print("\nAll inputs saved to", INPUTS_DIR)
-    for sub in ("minilm", "modernbert", "gpt2", "vit", "fashionclip"):
+    for sub in ("minilm", "modernbert", "gpt2", "vit", "fashionclip", "pythia"):
         d = os.path.join(INPUTS_DIR, sub)
         files = sorted(os.listdir(d))
         print(f"\n  {sub}/  ({len(files)} files)")

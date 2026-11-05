@@ -132,11 +132,11 @@ int    K          = int.Parse(args[2]);
 string phase      = args[3];
 string modelShort = args[4];
 
-bool isGpt2   = modelShort == "gpt2";
+bool isGpt2   = modelShort == "gpt2" || modelShort == "pythia";
 bool isFc     = modelShort == "fashionclip";
 bool isSteady = phase == "steady";
 int  warmup   = isSteady ? 300 : 0;
-int  estMs    = modelShort == "minilm" ? 15 : modelShort == "gpt2" ? 70 : modelShort == "fashionclip" ? 100 : 80;
+int  estMs    = modelShort == "minilm" ? 15 : modelShort == "gpt2" ? 70 : modelShort == "pythia" ? 90 : modelShort == "fashionclip" ? 100 : 80;
 int  R        = isSteady ? Math.Max(1, (100 + K*estMs - 1) / (K*estMs)) : 1;
 
 NpyArray[] am = new NpyArray[10], at = new NpyArray[10];

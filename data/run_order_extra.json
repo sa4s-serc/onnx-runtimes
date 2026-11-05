@@ -1,0 +1,4002 @@
+[
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1401,
+    "run_id": "08aa866c-1846-424f-97a2-0ef2c00d69f0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1402,
+    "run_id": "b25b950d-d16a-4291-8031-7ab87017dfbc"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1403,
+    "run_id": "f375005a-217c-436d-8b87-c918b81aacc2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1404,
+    "run_id": "ef0ad0b7-1674-4693-a875-80806d683a5d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1405,
+    "run_id": "33247296-5e1c-4741-a60f-b90f8e612ee1"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1406,
+    "run_id": "e2e43c7f-26fd-4a49-b531-ad7bfb272266"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1407,
+    "run_id": "82a608d0-8f6b-4f00-8d24-e05ee3769099"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1408,
+    "run_id": "d330adb7-4a05-47c2-a044-6980bace8000"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1409,
+    "run_id": "ba78435c-60b7-4ad0-b5f5-a3ea34181cc2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1410,
+    "run_id": "bd2dd752-9bf9-42e1-844f-69b416e25059"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1411,
+    "run_id": "ec162ebe-ae18-4d57-a0f0-a77345bd3724"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1412,
+    "run_id": "9eaf54f5-313d-4ac0-a617-921c03db4712"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1413,
+    "run_id": "98228b6c-66e9-4329-88e1-4b86d04e8474"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1414,
+    "run_id": "b14df92b-fc4e-4b4e-b5d9-24f1b8525987"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1415,
+    "run_id": "de67a61d-2dff-47ae-81ce-b885b6e096c9"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1416,
+    "run_id": "15a498fe-bba7-45f9-86c7-6d3880122685"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1417,
+    "run_id": "2cd0c319-8a8a-4734-812d-0ac400b2ba4a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1418,
+    "run_id": "906f5ffc-9a65-45bb-812d-c66e83148c5c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1419,
+    "run_id": "668461d1-c454-43f3-b0b2-d08ad693e2ff"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1420,
+    "run_id": "86565540-3c3c-4f82-88b1-5b51d2678dbd"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1421,
+    "run_id": "d981342a-064c-4eed-8c7a-ed11313d9ee4"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1422,
+    "run_id": "3bd132c7-d0c4-4e58-b6bd-636eac792170"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1423,
+    "run_id": "3a689bf0-e86b-4b5b-9c84-c1378877ba46"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1424,
+    "run_id": "8ed78b3b-ae1a-4b6d-b516-fe4be299c921"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1425,
+    "run_id": "c395acb4-49b5-479b-8cb0-bed12f92d731"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1426,
+    "run_id": "ce105968-aabf-4f56-9809-fbabddb5ce7d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1427,
+    "run_id": "db9b1e0a-33c4-4b04-8a8f-2f0c474b31c6"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1428,
+    "run_id": "82b74f09-7f8e-45a2-a531-92a1e730fab6"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1429,
+    "run_id": "0fae8372-e44b-4b37-97b7-e33cda4fb616"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1430,
+    "run_id": "1776e460-f096-4b8a-bc68-2da22f488f99"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1431,
+    "run_id": "e771fcb3-5bc2-4077-ab4f-2f2263014504"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1432,
+    "run_id": "8efb733c-a6af-48c3-a012-5d1fb0c49233"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1433,
+    "run_id": "461b765d-1187-49f2-92f2-dee4dee50fbf"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1434,
+    "run_id": "939d0404-0746-4efd-a20b-db315f006572"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1435,
+    "run_id": "c707d924-9b36-49a5-a7f0-13f72118119a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1436,
+    "run_id": "d69b7373-7203-4ac6-a053-46c722323995"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1437,
+    "run_id": "79263b14-dd1f-4612-9ad6-d891e5dfefed"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1438,
+    "run_id": "e7a0cb64-af2c-4a9c-9d6b-294f30507a89"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1439,
+    "run_id": "c95d5165-8116-4dbd-b5a4-6eb456df7ee2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1440,
+    "run_id": "4384922f-8974-4cab-b29c-b684acc022f2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1441,
+    "run_id": "0bbb7554-a139-4c3f-8b6e-76ba83d6ef54"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1442,
+    "run_id": "49efc545-76f9-4bbf-961c-84fc984d1275"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1443,
+    "run_id": "5c041408-1cc4-47e7-9287-5a97ca010026"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1444,
+    "run_id": "fda362ad-6597-4dd4-9383-1d5d74783e5e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1445,
+    "run_id": "48dccc8d-4b38-4a41-9f97-e30cc41d4cc3"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1446,
+    "run_id": "c671aca8-b5da-4b7d-af66-34181171a7f1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1447,
+    "run_id": "9d347dcc-a3ae-4580-901e-5027c0ad4ae2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1448,
+    "run_id": "c4d10c35-adff-4e2a-b374-456392831724"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1449,
+    "run_id": "d417a680-7e47-4ed8-ab0a-ed24857d4e6a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1450,
+    "run_id": "4d1854c0-ff1e-45a7-a8da-842cd5a9caa2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1451,
+    "run_id": "4646396b-1399-4002-b33b-a546704babca"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1452,
+    "run_id": "a51e25e6-e5c7-43c9-9eba-62ed8cc6bdf3"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1453,
+    "run_id": "5df568cf-c104-483b-a4b7-26b23d827ffe"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1454,
+    "run_id": "5276ec1a-33b9-489c-b056-5d4dcb2a2676"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1455,
+    "run_id": "f95d78bc-82c9-4c2b-9989-2c029ccdae1c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1456,
+    "run_id": "eecdc7ab-c8d7-4421-a92a-9e2d9d56d252"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1457,
+    "run_id": "4ca44300-87a7-45ef-955e-a0ddc8cdbaed"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1458,
+    "run_id": "54379213-437d-42a8-b5d8-68ecb6786ebc"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1459,
+    "run_id": "07903cf6-77be-4db3-85e2-5ba47ff62950"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1460,
+    "run_id": "7e9eab8e-4883-4f88-bd6f-e1e5ba084ac6"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1461,
+    "run_id": "b61ec30e-ef9e-484a-9cd2-29b3ff0a47b9"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1462,
+    "run_id": "004a2974-cf91-433b-b197-0e04f612b60e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1463,
+    "run_id": "a9c72454-a7ce-493a-99c7-d936892ba99e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1464,
+    "run_id": "b8092c31-4668-4b90-9d78-a5ecf1acf09a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1465,
+    "run_id": "c8bd475d-c7e7-42a9-acb5-157b1f927cd0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1466,
+    "run_id": "950afdc0-2ca5-41bc-a2e2-a20856ba54dc"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1467,
+    "run_id": "f0318bf9-3f61-45d7-898b-0a1245496559"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1468,
+    "run_id": "cd4901a5-2c77-4896-baed-68576eabb431"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1469,
+    "run_id": "3967ad13-8f96-4538-a6ad-14d0fa51f1a2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1470,
+    "run_id": "57371305-3000-43c6-b529-93b2d476294a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1471,
+    "run_id": "c65ab146-9dc0-4363-9554-99843c83750c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1472,
+    "run_id": "87a29e65-78e5-4acd-9b6a-6317ebe6b721"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1473,
+    "run_id": "21817607-135f-4d50-a946-bf43e3f9859e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1474,
+    "run_id": "6be5ad36-bdb2-4c10-a01b-c13eb00c0516"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1475,
+    "run_id": "1f3180d9-5f93-465f-8ad1-2d458b056e96"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1476,
+    "run_id": "268c3899-075b-41b2-8d63-7799c6d9347a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1477,
+    "run_id": "dd20aba4-48c5-4fbe-aba9-a05784a17380"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1478,
+    "run_id": "9b93c8ae-95e8-4a23-829b-348e4d5b3093"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 1,
+    "run_order": 1479,
+    "run_id": "f1d28c40-fbe7-4bd4-bfe2-5c3d0aca4b81"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 1,
+    "run_order": 1480,
+    "run_id": "7f0d03ae-fd96-4230-aadf-6b47935ca0fa"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1481,
+    "run_id": "d2009433-99ae-476c-8be8-c85b66df715f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1482,
+    "run_id": "e811fd5b-029d-4a64-bde9-aeb50c1b2238"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1483,
+    "run_id": "4b80c67c-7732-4899-9b68-aff724a03253"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1484,
+    "run_id": "07f37332-23ca-442c-a810-d91b20b80056"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1485,
+    "run_id": "0f97b6a7-60e8-47d6-a713-f71ac8689494"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1486,
+    "run_id": "330c7a57-36f2-4bea-b913-c3c99bcfdf16"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1487,
+    "run_id": "d860afd8-26dc-41d6-9e03-40178057e005"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1488,
+    "run_id": "9bff8414-a0f6-4c0e-9834-de9090c40b02"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1489,
+    "run_id": "9c001abc-d295-4992-a63e-2e2c656a0d57"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1490,
+    "run_id": "21431713-37d4-4056-8adb-8e0ff7e8a167"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1491,
+    "run_id": "72e622ff-e67e-4b7c-8ba8-24115f4301b7"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1492,
+    "run_id": "ef0a8523-2e72-456f-9188-aff43710cf2a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1493,
+    "run_id": "4a0aca9c-7d56-4324-af48-97536d5fc25f"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1494,
+    "run_id": "f50de2f5-275d-4205-827c-0bd76a0f4c6e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1495,
+    "run_id": "f66a4384-074c-43f7-a757-7fda0a7f9b65"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1496,
+    "run_id": "afc54d9a-41dc-4df2-90e4-c3aa331464c4"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1497,
+    "run_id": "f182a03e-483a-4b34-a67b-feaa6b8b649c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1498,
+    "run_id": "0f0f32b1-02d0-48fd-b74d-927e33980b8a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1499,
+    "run_id": "57645101-88d3-481d-9869-d24cc0d6a1ee"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1500,
+    "run_id": "05c25f38-093a-4a69-8b41-f9e93fca00bc"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1501,
+    "run_id": "32e67952-4841-4bac-9f87-f25ec4b0502f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1502,
+    "run_id": "027421f6-274b-47d2-885f-751249480198"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1503,
+    "run_id": "0baf61a7-3fe6-47de-98e8-94595ff19104"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1504,
+    "run_id": "21704ea9-9344-4e77-a530-d5f4101bd5a2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1505,
+    "run_id": "9328a1d6-52d0-473c-8e58-ad73cb9d6df6"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1506,
+    "run_id": "19b5de45-249d-48ee-a734-4009d060965f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1507,
+    "run_id": "cf88c176-96a3-498f-9731-0eb2ed87e46b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1508,
+    "run_id": "fd8c9f58-a42d-4c4d-8ba3-b1bce769e2b7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1509,
+    "run_id": "cb912bfa-1093-4f89-ae25-583828ed1377"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1510,
+    "run_id": "51cefef7-27a1-4234-9e96-8f6a9af74481"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1511,
+    "run_id": "929a4370-ec3f-44f3-8b14-c54709c00f8f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1512,
+    "run_id": "c004b5e3-a17a-4306-ad44-3c602b405b44"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1513,
+    "run_id": "7bc96f44-86dc-4adb-bf6b-fea62113e71e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1514,
+    "run_id": "17ce9110-bc7c-4b1e-b79e-b64df4861349"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1515,
+    "run_id": "a3aa3f8a-bc00-44e9-a023-92e903f37f0e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1516,
+    "run_id": "1912631a-4ac7-4f61-a7f5-d5038b6afe7d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1517,
+    "run_id": "1dca1149-18cb-4cb5-972a-8ee41e007426"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1518,
+    "run_id": "f545479a-eb71-4536-a17f-4a6dceaa8cfc"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1519,
+    "run_id": "7887a354-3342-4b8f-8b5c-4b64f717268d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1520,
+    "run_id": "6703b02d-ef86-4818-8764-b444df3b46b8"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1521,
+    "run_id": "3ba310fb-2b58-4bb6-91c3-112a7a34083c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1522,
+    "run_id": "d55ece66-b1c2-480a-baf8-7729e409e350"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1523,
+    "run_id": "eaf862db-68da-4065-8871-dbf2ec1e2508"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1524,
+    "run_id": "6e968785-d1d3-4c4f-ab1d-7b903c864ca2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1525,
+    "run_id": "a0bd55ff-4967-47f6-a0f0-4a39fb251517"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1526,
+    "run_id": "faa48d75-a7f6-4427-8ce9-6b6541d4bd6f"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1527,
+    "run_id": "8b71b04c-f3ac-46dd-926a-d92fd3557afd"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1528,
+    "run_id": "26cf17f2-9662-46b6-9953-1f2301cfad38"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1529,
+    "run_id": "a6eacdb1-377d-449d-ad1c-47985f323c4f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1530,
+    "run_id": "260fb925-ab95-4819-b7d8-5c02247d89cb"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1531,
+    "run_id": "c159d58a-1662-4e29-a4ea-4692651a1564"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1532,
+    "run_id": "923d4c54-99ca-4599-88be-b3a2c4dac4d5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1533,
+    "run_id": "e8108d43-5eb8-46e2-85bf-48605e7210ad"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1534,
+    "run_id": "776d7cd6-0e9a-481c-bb7f-4d5957d33556"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1535,
+    "run_id": "4d4a61c7-2e30-4f4c-a4c3-07aaa7cfa446"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1536,
+    "run_id": "dc1ad6ad-6e4b-4c99-a2ee-52fd5474d8c8"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1537,
+    "run_id": "ac9aeea3-eb3b-422f-b027-2282c2a9ddda"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1538,
+    "run_id": "6d5b4156-1159-4d09-8125-00e3ea3d1f7e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1539,
+    "run_id": "7a27637d-f272-4b21-bbfc-2e0666525a5c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1540,
+    "run_id": "adeef589-3a0f-4019-89e6-6ce9a3a4fb79"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1541,
+    "run_id": "9c9ea193-ee9f-4792-b526-8cbee98e41a4"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1542,
+    "run_id": "7e876d19-13ca-44cb-a6ee-8fe2d150f949"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1543,
+    "run_id": "f0d40ec2-9425-4151-a687-d549cc6e3ff5"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1544,
+    "run_id": "1519a993-c985-47b3-85a4-ebcb3ed202fd"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1545,
+    "run_id": "cfd7a293-aa74-41d5-b056-ff6aa1c59491"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1546,
+    "run_id": "f2017709-5191-4d01-b24f-6610b6693cf0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1547,
+    "run_id": "16c20d01-7e02-4d6b-874a-e9a6f6597033"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1548,
+    "run_id": "c9bd0d6f-d315-434e-a8f6-10c9aec9fc4e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1549,
+    "run_id": "18ca4788-53b2-4df7-8433-32e857e14238"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1550,
+    "run_id": "99c2ca84-1e80-4bde-a3d0-04fc2874dd46"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1551,
+    "run_id": "07cdc296-d7d3-4897-91cf-7a6f6832081c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1552,
+    "run_id": "f56348e6-a546-4b5c-b0d8-497a7d997922"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1553,
+    "run_id": "d4357487-9c1d-46db-ac49-136597f5ec45"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1554,
+    "run_id": "60643763-3fdc-4034-824f-30dd0b92f9b8"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1555,
+    "run_id": "6a4fe1c8-e538-4d9d-b00e-84d2230075a2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1556,
+    "run_id": "f5ffa690-e27e-4ebb-bfde-08460fe64d75"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1557,
+    "run_id": "fee57280-8444-4b11-87c6-bba5f2dcafb5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 2,
+    "run_order": 1558,
+    "run_id": "ab60feab-d140-4e9b-be00-59a98720de65"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1559,
+    "run_id": "589ab3fc-2a06-43e0-9d05-0ec124916325"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 2,
+    "run_order": 1560,
+    "run_id": "389b403a-4b18-4481-9a92-bfd1093db4ad"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1561,
+    "run_id": "4f120f5b-a525-47aa-85c4-c0075b3f0837"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1562,
+    "run_id": "8aff666c-ed7d-4cb2-903e-ac4ea9413c0e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1563,
+    "run_id": "2a0ad1fb-589c-47e5-90f6-d3696254de2d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1564,
+    "run_id": "c57994cd-f24d-4509-b5b3-dbd5b0e227e4"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1565,
+    "run_id": "1aca5188-dfa4-44fa-a4a8-84507cde6631"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1566,
+    "run_id": "3ac86de9-62bd-48ce-9d14-e37e5881aaa9"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1567,
+    "run_id": "37fed81e-8727-4dde-8004-e4cc84b1e13d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1568,
+    "run_id": "7a527830-9627-4949-a034-4472ec920d68"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1569,
+    "run_id": "a091a931-63e6-44d4-9508-c86de3d2fed0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1570,
+    "run_id": "418f39d8-bd36-4e4f-b1e1-53a00712284a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1571,
+    "run_id": "676767d2-291e-4914-8579-cfae7581a876"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1572,
+    "run_id": "78a600bd-f894-4c48-a887-6678279a7368"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1573,
+    "run_id": "b1a6ea7b-6b64-4bba-b2ff-c7495bc793e9"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1574,
+    "run_id": "3c16e3f9-ebfc-4e67-8db2-8bf27550eec2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1575,
+    "run_id": "de348c58-fe76-4340-9ba4-4d98c55bfd22"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1576,
+    "run_id": "d4901ded-ac38-43d2-99c8-79b092fc46fa"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1577,
+    "run_id": "b30b2a4e-3cf2-4203-8bb9-eab1d12554d0"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1578,
+    "run_id": "ea6cc8c1-6f0b-478f-888f-ba8bdfcfb848"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1579,
+    "run_id": "0efd9508-28a3-486c-b83c-08174ab9d84d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1580,
+    "run_id": "57518462-65a4-4466-8cc2-7bc96582754f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1581,
+    "run_id": "d13d21c3-ee3e-4685-8289-6b045ffb42be"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1582,
+    "run_id": "7a24e04b-d481-4b79-8e7f-96f02aed7cd0"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1583,
+    "run_id": "5463023f-7e00-42fa-8b76-ac518a409286"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1584,
+    "run_id": "da49beb5-4030-48f0-8ff4-7abbf86338ca"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1585,
+    "run_id": "8dcfc284-18c3-4585-9d83-21eec7f61ecb"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1586,
+    "run_id": "744c4000-0fd1-4457-b362-a5ae546de3fe"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1587,
+    "run_id": "9a76fa67-cdc1-4607-add5-bab5f1ca910e"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1588,
+    "run_id": "cb3df5f4-1a81-4df9-9bfd-7ebec2068baf"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1589,
+    "run_id": "477aa713-3ea0-4d3d-8d94-fbac25d95f32"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1590,
+    "run_id": "a42ec5ff-286a-4fa3-8613-c9c1815aa3d5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1591,
+    "run_id": "c23d54da-3cdd-4b4b-9b73-ad9235e9a73a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1592,
+    "run_id": "63de95d9-8a42-4922-82b6-ad32796170e8"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1593,
+    "run_id": "f5e6892c-f76b-4318-9f78-42929939e6a5"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1594,
+    "run_id": "c8bc5c8e-88c1-42d6-9a06-cb5b35369254"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1595,
+    "run_id": "b361c793-0230-4be4-9d1c-80aa351e4635"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1596,
+    "run_id": "2ae2ed06-0aa4-406d-b50a-bf7ae3f45af5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1597,
+    "run_id": "05ec360e-9ad3-4997-99a4-03045f5cacfa"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1598,
+    "run_id": "45aff470-a089-4788-97f2-338599af5ab3"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1599,
+    "run_id": "402bbbbf-c7d8-4696-bf49-3c3cbc5b4930"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1600,
+    "run_id": "e881a021-454d-4a82-bd47-634fec18eee5"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1601,
+    "run_id": "c99465c8-62ab-43a0-95fe-7690e674c2f1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1602,
+    "run_id": "1ef90131-fe47-4f54-8f56-e15d5a3b6b43"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1603,
+    "run_id": "82a679b5-6288-4a2a-acf9-3f34dcd9de61"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1604,
+    "run_id": "bd058990-c87c-4a5a-beb6-2d0eb328a392"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1605,
+    "run_id": "9ce6c364-1968-44b3-a3f4-181f55ac0ee5"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1606,
+    "run_id": "58826d97-75e1-4401-b83b-e487a417fc3b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1607,
+    "run_id": "43c94e7b-17e9-42c9-9f75-754a5f7a1a45"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1608,
+    "run_id": "dc61d08b-99aa-4d64-b035-5e42fac07644"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1609,
+    "run_id": "fcac7a74-117f-4aeb-8032-a8182470065c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1610,
+    "run_id": "058fa928-02d4-40f3-a005-b026a29f4986"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1611,
+    "run_id": "7b9e0b18-b9df-4722-b9be-2f4f7caf4404"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1612,
+    "run_id": "55a7880f-0d19-4e7a-9f54-ab327aae4eaf"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1613,
+    "run_id": "bc425f1b-315e-421a-9947-646aede0ba0f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1614,
+    "run_id": "35adbf3f-868e-4a2f-86b0-a6d2b48ac6f2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1615,
+    "run_id": "dd8224cb-7bad-4e87-bb39-df7975a32775"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1616,
+    "run_id": "5eeecc74-1a67-4e94-8dba-7db610eef03a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1617,
+    "run_id": "41350fa3-5c69-4283-a7ff-82276a6c3455"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1618,
+    "run_id": "1b1d3d1e-bbcd-4a13-832a-1aed33ad8f5c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1619,
+    "run_id": "89951905-2215-4673-9193-53c9beef54ea"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1620,
+    "run_id": "0f66de57-2e4e-4285-ae4d-dfb39ba03f41"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1621,
+    "run_id": "06f2237f-1d40-4949-9ee4-3455cf895cc1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1622,
+    "run_id": "4286b59b-2a34-4bc0-8c2e-c8d33908f2da"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1623,
+    "run_id": "2b812e6a-be8d-4b03-8135-7ddb8fd7692f"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1624,
+    "run_id": "32520c1d-2736-4f31-835d-8b886a11f2ff"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1625,
+    "run_id": "f63d9a83-6623-4baa-b6aa-bbc24c735e1b"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1626,
+    "run_id": "78f637bb-c160-4074-9a6e-ba3ed49e512a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1627,
+    "run_id": "ceaf9264-1122-4f11-a402-f483b08829ed"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1628,
+    "run_id": "1856c148-10d0-44ae-8c58-1acc9e7ee10e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1629,
+    "run_id": "790c4721-e51e-431d-9a9c-0d392834cbbb"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1630,
+    "run_id": "fbed06e9-ff76-4d77-8aa4-81045c341c8a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1631,
+    "run_id": "a72f6be6-c6ea-47fc-b777-737a619c20ac"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1632,
+    "run_id": "70e5446b-8a29-4427-adfb-5de25835ff1a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1633,
+    "run_id": "c5794651-0de2-429e-b2bd-f16badb673ed"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1634,
+    "run_id": "e63687c8-2450-4041-8841-4ff57bcc9445"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1635,
+    "run_id": "1d9dd3f8-3dee-41e3-ac96-990deff54cae"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1636,
+    "run_id": "ab07ab31-b5f6-4507-829e-217ea3ca7e01"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1637,
+    "run_id": "b73edcce-10da-493c-8e25-30735e569745"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 3,
+    "run_order": 1638,
+    "run_id": "8b05708f-60bd-48fc-b730-f2d81858d2f2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1639,
+    "run_id": "1b64d8cb-b08f-44b0-b500-af2b16b0e82d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 3,
+    "run_order": 1640,
+    "run_id": "138682e6-38f3-4fbc-b773-5c8e443b2af5"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1641,
+    "run_id": "52248d07-0933-4417-9c67-9585fd949065"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1642,
+    "run_id": "be868b82-ee43-45dd-91ba-c456af995fa7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1643,
+    "run_id": "6f53be7c-afe8-454a-a37a-0548aaec2f3a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1644,
+    "run_id": "a01d319c-37d0-4447-b4c8-7528685ab671"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1645,
+    "run_id": "49dbb778-3c2a-476e-ab3f-49a599bb6fbd"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1646,
+    "run_id": "4ce9354b-d9c4-4b40-8fd8-3c84d25985b1"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1647,
+    "run_id": "41a2b1ff-e1b9-42b5-bb76-9109b4620534"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1648,
+    "run_id": "1746a61f-6ecc-40b2-95cf-b4cba7ce4deb"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1649,
+    "run_id": "4f395ac3-f87a-4eee-ba50-b0acd2616bc7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1650,
+    "run_id": "b2ff6e26-b46b-4111-8fd1-df65dbdcdf3b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1651,
+    "run_id": "5c5f4115-6b48-460c-a36b-c675bdd819be"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1652,
+    "run_id": "600ba986-134f-49ac-a2f5-ce5bdb3d9a8b"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1653,
+    "run_id": "0d8e56a2-7ce6-4ff4-993b-3ba58835eda8"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1654,
+    "run_id": "878e8181-6d5d-4c42-a9c1-2b57276040e5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1655,
+    "run_id": "3583af6e-8985-4434-a767-558b964ecdc5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1656,
+    "run_id": "16c3d668-e575-4406-8c39-38ff77405793"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1657,
+    "run_id": "fef37c80-92c5-4c98-9639-e37ae6672e47"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1658,
+    "run_id": "aeff9589-8641-4731-a00a-d247386a6b83"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1659,
+    "run_id": "b1e8caa6-0b3e-498f-89f5-b18cf987aa7d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1660,
+    "run_id": "5d8baaff-4ed2-4560-9f5f-aa2c0eb8e7d2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1661,
+    "run_id": "5af65a92-7ddd-4890-9f49-5f89ffcf4c0e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1662,
+    "run_id": "d026584a-58e7-4bc6-aa57-6443238826bb"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1663,
+    "run_id": "ca5a5917-3b22-4634-83c3-bcf1d3ed4e40"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1664,
+    "run_id": "a8009005-92a7-402c-9b3f-00b3beedd5e6"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1665,
+    "run_id": "863ca5b2-e8ac-4aa1-b0fc-3cb0862c8c40"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1666,
+    "run_id": "4898a225-1fc8-4404-b436-59ebec96c9b5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1667,
+    "run_id": "931b59d9-1b43-4e7f-91cb-31de65f236e7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1668,
+    "run_id": "9d45dce2-a05c-47d1-baa0-6b9ab5e01780"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1669,
+    "run_id": "43da608e-cb84-4377-a747-47f285b28f93"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1670,
+    "run_id": "0f476dc4-6b3a-4d37-8195-ed613b3e884b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1671,
+    "run_id": "b9abf6f5-4350-4539-8341-beb2285c1dee"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1672,
+    "run_id": "004658f2-3010-446a-86f9-c2cd6ce8d3a7"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1673,
+    "run_id": "57c3c406-9a0b-4e33-ac30-85419a351f29"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1674,
+    "run_id": "c0f3c124-7812-4aca-a79e-108b3d99bcdd"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1675,
+    "run_id": "48da8877-179c-4c08-9369-76ee4972dc0f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1676,
+    "run_id": "78375e9d-0d3e-435f-b360-b320cfbf5435"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1677,
+    "run_id": "8b966751-703b-4177-9fe4-9ab3f3abc404"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1678,
+    "run_id": "0219c063-6df4-412c-9619-71e819c48511"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1679,
+    "run_id": "7eebfc6a-a01c-4b4a-9143-5808cf5904fe"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1680,
+    "run_id": "9684e835-c951-4a95-b3e4-a9ab6304429c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1681,
+    "run_id": "f8e3c332-586d-4491-aefe-515eec1e9c10"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1682,
+    "run_id": "e3b31edb-7d9c-4102-96b3-4de8324926fe"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1683,
+    "run_id": "241a0608-689c-410d-826d-1f80e1ed818b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1684,
+    "run_id": "29465e6c-256b-40b2-92dd-f444173ffb3a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1685,
+    "run_id": "ac10a43b-d0fd-45d0-a133-13a25b032496"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1686,
+    "run_id": "f7e59774-ac3a-4825-9f56-92e88eb50ab4"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1687,
+    "run_id": "409a7938-749d-4add-9e76-6100b0b9ddd1"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1688,
+    "run_id": "998e5b77-3e91-4dec-90b3-ee33e199ec5f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1689,
+    "run_id": "5891cf48-6f75-4843-9b8f-17a8a9b6dd28"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1690,
+    "run_id": "bbd92033-1d47-4092-946a-c74a667d6349"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1691,
+    "run_id": "10e8e51c-6938-4aec-b8b6-3d753535943d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1692,
+    "run_id": "a58d7258-eb95-4136-a067-54b5246021d2"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1693,
+    "run_id": "ae611a9e-15f5-4357-8dbd-bf1d27f5eaaf"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1694,
+    "run_id": "e129736f-eba5-4878-8a7a-25eb09b77f38"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1695,
+    "run_id": "e59d13b5-a40f-422e-b6ee-8b39965abe3b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1696,
+    "run_id": "1f2d6783-7ae1-45de-bc03-d9a15b98b189"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1697,
+    "run_id": "21041aec-2201-4bbb-b03a-d87263e73191"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1698,
+    "run_id": "2bafe2a6-6da5-4872-8f19-7dd9ef5ec018"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1699,
+    "run_id": "7c986492-dd11-41cb-acca-31c9bd1dede1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1700,
+    "run_id": "138bb589-0724-458e-b185-185aa3be3f6e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1701,
+    "run_id": "a5147477-48d8-4ef0-a883-76706b33a03e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1702,
+    "run_id": "76f8774b-2f12-4475-b46a-2683264197c3"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1703,
+    "run_id": "536d8c8a-669d-427e-b4f0-93a34010bcf9"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1704,
+    "run_id": "73966def-f60a-4561-9a44-0042668ad190"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1705,
+    "run_id": "b9c40306-f6f1-46d5-bd72-084d3a58b1bd"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1706,
+    "run_id": "24a9835b-0c7d-4b34-b86b-f0ff5b5d0332"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1707,
+    "run_id": "a3acdae0-11ea-42f8-9350-c43be7074d5d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1708,
+    "run_id": "33793c6a-0925-43f6-b1e9-2ce100b1ec76"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1709,
+    "run_id": "8e2b6664-c772-4f9c-a674-533e478640f3"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1710,
+    "run_id": "ce1265e8-662f-4465-bef5-aaaa0e948f0c"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1711,
+    "run_id": "ae3173ec-fed5-49f7-8b9f-8060d678b293"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1712,
+    "run_id": "44c9de11-e25a-406d-99cd-b5c4e9698467"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1713,
+    "run_id": "d35c07a2-62ad-4a84-be92-6cb8ff836f49"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1714,
+    "run_id": "09de7bc4-77a6-4b72-8026-18eee83a5b33"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1715,
+    "run_id": "21e801bb-16a2-4ca9-ac1b-4469a0f147bf"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1716,
+    "run_id": "7413d1fa-92cf-4195-a8d3-b1dea102398c"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1717,
+    "run_id": "a293e34f-0a59-420c-ba07-13bb4c5a52a2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1718,
+    "run_id": "18f24041-b2c3-4141-8820-35ff2c24946e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 4,
+    "run_order": 1719,
+    "run_id": "89f625ed-8635-4fea-960f-c13c2bb7a150"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 4,
+    "run_order": 1720,
+    "run_id": "2dc0f846-10fa-44f1-80cc-9c5571955465"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1721,
+    "run_id": "bf5d9e74-c1a3-4ac2-b88c-c3b93ff540b0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1722,
+    "run_id": "edafb45f-52dc-45fc-852c-3d94688833c3"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1723,
+    "run_id": "2cb70c68-d22a-4d2d-b6d8-45ab6ec96c47"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1724,
+    "run_id": "3c1c4b3e-76d0-4d31-b7ab-a7cc68bbcb94"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1725,
+    "run_id": "bb234992-daa5-43d5-ae7f-f0561d6c3fe2"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1726,
+    "run_id": "1e160107-00e5-45a2-b397-0b00c50c919a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1727,
+    "run_id": "9f0fca0e-31dd-499a-b617-95cd1e1f90d1"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1728,
+    "run_id": "2a0d9e55-e45a-4c75-8864-09ea6dd099cb"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1729,
+    "run_id": "603b42af-47f8-450e-add1-16717d779af7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1730,
+    "run_id": "ef554504-d731-45be-beff-aaa514f43069"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1731,
+    "run_id": "81d8aec4-73d5-4727-872d-2327608dcbaa"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1732,
+    "run_id": "5611170d-e00a-41b4-815b-4778392bde14"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1733,
+    "run_id": "a27d1e6b-1d16-45d9-80c2-b6e5d4ff1b8f"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1734,
+    "run_id": "85f92245-7cd5-4b86-9f8c-552b701a733b"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1735,
+    "run_id": "de144bc2-5cc3-4f13-a785-54f20494792a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1736,
+    "run_id": "cd815326-433c-4d9b-a810-44ccd203a14e"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1737,
+    "run_id": "1a183ee3-05d3-4606-ba1d-3d40cb686e0a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1738,
+    "run_id": "abdfd506-b4dc-4374-84ce-7f541abcb4fd"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1739,
+    "run_id": "510c4622-6a42-4c5d-a571-d46fc4838079"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1740,
+    "run_id": "3c830ef9-34cb-46ff-a6b7-a2a67c02b932"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1741,
+    "run_id": "84ea58bb-2ffe-48a2-935c-6dad7d800f35"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1742,
+    "run_id": "bb1ff601-e642-4fa4-8dd5-75cd3244d091"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1743,
+    "run_id": "068a026f-842a-4a6e-a0b6-64a23b4a9857"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1744,
+    "run_id": "fc328450-1596-4e5c-8f10-8c7b60bc91d7"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1745,
+    "run_id": "56eccd77-b1c1-4ad6-b452-62a9284af210"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1746,
+    "run_id": "033ffdf8-f714-4d5f-a004-8bf275badc1a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1747,
+    "run_id": "0d1fe575-d4df-4548-bded-6975496bed47"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1748,
+    "run_id": "44e4d688-6854-4437-88d2-a411062b8e27"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1749,
+    "run_id": "4e4eb4f8-3616-4276-9b4c-3efed47c0ad9"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1750,
+    "run_id": "a625d5fe-9470-40f1-ac4c-f2b7db04345a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1751,
+    "run_id": "30073b93-5c85-4ee0-a104-1c4ee30931c8"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1752,
+    "run_id": "bec0513b-03fa-47d5-a759-93a076ebbf7b"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1753,
+    "run_id": "05a674b5-bc83-409b-87eb-a5e0d1d1962a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1754,
+    "run_id": "a9a6f995-ff67-43a5-9bec-34a42d97b9b5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1755,
+    "run_id": "35d2770b-ccfc-48a4-93f4-d98f33335dde"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1756,
+    "run_id": "72c9e886-4e0c-4326-9024-8e1c3ac0d377"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1757,
+    "run_id": "ac5345a5-6b13-4e5a-a1c1-79b408db6436"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1758,
+    "run_id": "d7e44abc-c302-4916-b8c0-32ca6a159e8d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1759,
+    "run_id": "00f73e00-ddb5-45ac-8e2b-7e6695e77516"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1760,
+    "run_id": "6e399ffe-3c21-45e3-8e10-40524464d6ef"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1761,
+    "run_id": "89853463-338f-4595-aa5a-9d0fe05bf423"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1762,
+    "run_id": "2bf5460e-f265-4489-be32-83891c1fa607"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1763,
+    "run_id": "6801cea0-185c-4ff5-8196-6a4488dcb475"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1764,
+    "run_id": "641a4bf1-f68d-4f1d-8423-deb51a9a4679"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1765,
+    "run_id": "a3f3066e-318c-427c-ab39-cd046603b7c5"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1766,
+    "run_id": "c42ca6d3-1df8-43df-a2c0-2351366b27ec"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1767,
+    "run_id": "3a5270bc-6f5b-4626-aa13-f5e8f3785bd0"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1768,
+    "run_id": "ef5a1cb7-53ba-4aad-b0e2-1cf80f5ff4b1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1769,
+    "run_id": "53ab3381-4eb5-46c4-a0c7-7a70236bec65"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1770,
+    "run_id": "49b18580-4feb-4d01-86ea-386d38493049"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1771,
+    "run_id": "8213fe3a-73db-4028-8b96-339fe335585d"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1772,
+    "run_id": "4b3e5a9b-fb2c-4db8-a260-c94e95057d2b"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1773,
+    "run_id": "2c85aca2-9a60-41a4-a9be-93e0b88adc72"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1774,
+    "run_id": "fcfad725-2d21-417a-b28f-696fc7aa451a"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1775,
+    "run_id": "cf9258d0-90ad-43df-a2fb-5cefc10cdf95"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1776,
+    "run_id": "c9009b39-95f7-4b74-81dc-a4aea454e9be"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1777,
+    "run_id": "73fa7985-c125-4606-8ab0-185da4e04bf6"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1778,
+    "run_id": "bb7e863b-a398-4011-beff-2180feacf346"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1779,
+    "run_id": "0cbfd13a-efa9-4e88-ac77-dfc59be4c5d7"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1780,
+    "run_id": "acbe9e21-58ee-4e45-9add-ab4bd1471e73"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1781,
+    "run_id": "871e6384-e8ad-4af8-969e-9f7c378326cc"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1782,
+    "run_id": "d317b8df-c14a-49cc-b89e-7b0b6de851e8"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1783,
+    "run_id": "5c7239a6-5e90-40ae-bf06-1db6cad961f1"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1784,
+    "run_id": "8e4fb8a2-8379-4159-abca-54ad8087f713"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1785,
+    "run_id": "f4787414-c958-4056-bda9-3db1a2461bc9"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1786,
+    "run_id": "10ac52b4-d5b1-48bd-9434-20d0dcbde7ff"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "fashionclip",
+    "model_id": "patrickjohncyh/fashion-clip",
+    "volume": 1000,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1787,
+    "run_id": "89561f0f-eeb9-4085-8f10-1489a88d1c4a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1788,
+    "run_id": "39c33f1d-45c7-46cc-ab8b-ab51e70fac6d"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1789,
+    "run_id": "f5abb691-56c1-4ee3-aac1-f057080f5599"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1790,
+    "run_id": "2cd4c7b9-8f37-4f0e-bc3e-894ebe04b18b"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1791,
+    "run_id": "3aa3a16f-f6e9-461b-873b-0932f9ef57b6"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1792,
+    "run_id": "50e88b7f-cb40-465d-af08-a327c9851877"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1793,
+    "run_id": "c07ecaad-fa65-4991-8d59-c6eaeec3baa1"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 10,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1794,
+    "run_id": "b8d27676-a474-45d8-8f2a-cdb17057916a"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1795,
+    "run_id": "7aff93bc-b0c6-4674-8de4-7ab1c5d78377"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "gpt2",
+    "model_id": "openai-community/gpt2",
+    "volume": 1,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1796,
+    "run_id": "9ac06c7d-741b-427f-9aff-18552c8d7563"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 1000,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1797,
+    "run_id": "6e8f06d8-b530-41a5-9294-28055bed505f"
+  },
+  {
+    "language": "ruby34",
+    "model_short": "modernbert",
+    "model_id": "answerdotai/ModernBERT-base",
+    "volume": 10,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1798,
+    "run_id": "6b7023b8-8a91-45e9-8b34-533ef8ea88c0"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "vit",
+    "model_id": "trpakov/vit-face-expression",
+    "volume": 100,
+    "phase": "cold",
+    "repetition": 5,
+    "run_order": 1799,
+    "run_id": "29841fc4-aa2c-4b91-86ad-84b1b3660111"
+  },
+  {
+    "language": "ruby40",
+    "model_short": "minilm",
+    "model_id": "sentence-transformers/all-MiniLM-L6-v2",
+    "volume": 100,
+    "phase": "steady",
+    "repetition": 5,
+    "run_order": 1800,
+    "run_id": "dca2ba6c-e978-4cf5-95c5-1acd374535f0"
+  }
+]

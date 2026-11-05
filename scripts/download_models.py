@@ -21,7 +21,7 @@ MODELS = [
         "out_name":  "ModernBERT-base.onnx",
     },
     {
-        "repo_id":   "onnx-community/gpt2",
+        "repo_id":   "openai-community/gpt2",
         "filename":  "onnx/decoder_model.onnx",
         "out_name":  "gpt2.onnx",
     },
@@ -34,6 +34,13 @@ MODELS = [
         "repo_id":   "patrickjohncyh/fashion-clip",
         "filename":  "onnx/model.onnx",
         "out_name":  "fashion-clip.onnx",
+    },
+    {
+        # Second autoregressive decoder (GPT-NeoX arch), distinct from GPT-2.
+        # No-KV-cache export matching the gpt2 decoder_model.onnx signature.
+        "repo_id":   "Xenova/pythia-160m",
+        "filename":  "onnx/decoder_model.onnx",
+        "out_name":  "pythia-160m.onnx",
     },
 ]
 

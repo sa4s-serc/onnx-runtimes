@@ -114,7 +114,7 @@ def build_feed(session, arr_main, arr_text, j, model_short)
 end
 
 def run_loop(session, arr_main, arr_text, count, model_short)
-  if model_short == 'gpt2'
+  if model_short == 'gpt2' || model_short == 'pythia'
     input_names = session.inputs.map { |i| i[:name] }
     id_name = input_names.find { |n| n.downcase.include?('input_id') } || input_names.first
     mask_name = input_names.find { |n| n.downcase.include?('attention') || n.downcase.include?('mask') }
@@ -156,6 +156,7 @@ warmup    = is_steady ? 300 : 0
 est_ms    = case model_short
             when 'minilm'      then 15
             when 'gpt2'        then 70
+            when 'pythia'      then 90
             when 'fashionclip' then 100
             else                    80
             end

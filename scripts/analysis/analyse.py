@@ -22,10 +22,12 @@ ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / "data" / "measurements.json"
 OUT  = ROOT / "scripts" / "analysis"
 
-LANG_ORDER = ["c", "cpp", "rust", "csharp", "java", "python", "ruby"]
+LANG_ORDER = ["c", "cpp", "rust", "csharp", "java", "python",
+              "ruby", "ruby34", "ruby40"]
 LANG_DISPLAY = {
     "c": "C", "cpp": "C++", "rust": "Rust",
-    "csharp": "C#", "java": "Java", "python": "Python", "ruby": "Ruby"
+    "csharp": "C#", "java": "Java", "python": "Python", "ruby": "Ruby 3.0",
+    "ruby34": "Ruby 3.4", "ruby40": "Ruby 4.0"
 }
 MODEL_SHORT = {
     "sentence-transformers/all-MiniLM-L6-v2": "MiniLM",
@@ -33,10 +35,11 @@ MODEL_SHORT = {
     "openai-community/gpt2": "GPT-2",
     "trpakov/vit-face-expression": "ViT",
     "patrickjohncyh/fashion-clip": "CLIP",
+    "EleutherAI/pythia-160m": "Pythia",
 }
-MODEL_ORDER  = ["MiniLM", "ModernBERT", "GPT-2", "ViT", "CLIP"]
+MODEL_ORDER  = ["MiniLM", "ModernBERT", "GPT-2", "Pythia", "ViT", "CLIP"]
 # Distinct, colorblind-friendly model palette for grouped bar charts.
-MODEL_COLORS = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7"]
+MODEL_COLORS = ["#0072B2", "#E69F00", "#009E73", "#D55E00", "#CC79A7", "#56B4E9"]
 
 # Cliff's delta thresholds
 def cliffs_delta(x, y):
@@ -189,8 +192,13 @@ print("\n  Kendall's tau between model rankings:")
 model_pairs = list(combinations(MODEL_ORDER, 2))
 taus = []
 for ma, mb in model_pairs:
-    ra = [LANG_ORDER.index(l) for l in rankings[ma]]
-    rb = [LANG_ORDER.index(l) for l in rankings[mb]]
+    # Rank of each of the seven primary languages (Ruby 3.0 only, as in Table 3).
+    # kendalltau needs per-language ranks, not language indices in rank order.
+    prim = [l for l in LANG_ORDER if l not in ("ruby34", "ruby40")]
+    ra_order = [l for l in rankings[ma] if l in prim]
+    rb_order = [l for l in rankings[mb] if l in prim]
+    ra = [ra_order.index(l) for l in prim]
+    rb = [rb_order.index(l) for l in prim]
     tau, p = kendalltau(ra, rb)
     taus.append(tau)
     print(f"    {ma} vs {mb}: tau={tau:.3f} (p={p:.4f})")
@@ -479,13 +487,16 @@ try:
         "java": "v", "python": "P", "ruby": "X"
     }
 
-    # Figure 1: Energy vs volume, 2-row grid (3+2), steady-state
+    # Figures show the seven primary languages (Ruby at 3.0). The YJIT-enabled
+    # Ruby versions are reported separately in the Ruby-version table.
+    FIG_LANGS = ["c", "cpp", "rust", "csharp", "java", "python", "ruby"]
+
+    # Figure 1: Energy vs volume, 2x3 grid (one panel per model), steady-state
     fig, axes_grid = plt.subplots(2, 3, figsize=(7, 5.0), sharey=False)
     axes_flat = axes_grid.flatten()
-    axes_flat[-1].set_visible(False)  # hide unused 6th cell
 
     for ax, mod in zip(axes_flat, MODEL_ORDER):
-        for lang in LANG_ORDER:
+        for lang in FIG_LANGS:
             meds = [np.median(get_energy(lang, mod, vol, "steady")) for vol in volumes]
             ax.plot(volumes, meds,
                     color=COLORS[lang], marker=MARKERS[lang],
@@ -501,10 +512,10 @@ try:
         ax.grid(True, alpha=0.3, which="both")
 
     handles, labels = axes_flat[0].get_legend_handles_labels()
-    fig.legend(handles, labels, loc="lower right",
-               bbox_to_anchor=(0.98, 0.05), ncol=1, fontsize=7.5,
+    fig.legend(handles, labels, loc="lower center",
+               bbox_to_anchor=(0.5, -0.04), ncol=7, fontsize=8,
                framealpha=0.85)
-    plt.tight_layout()
+    plt.tight_layout(rect=[0, 0.05, 1, 1])
     plt.savefig(OUT / "fig_energy_vs_volume.pdf", bbox_inches="tight")
     plt.savefig(OUT / "fig_energy_vs_volume.png", dpi=300, bbox_inches="tight")
     plt.close()
@@ -520,17 +531,17 @@ try:
     for ax, vol in zip(axes_flat, volumes):
         cold_meds   = []
         steady_meds = []
-        for lang in LANG_ORDER:
+        for lang in FIG_LANGS:
             vals_cold   = [np.median(get_energy(lang, mod, vol, "cold"))   for mod in MODEL_ORDER]
             vals_steady = [np.median(get_energy(lang, mod, vol, "steady")) for mod in MODEL_ORDER]
             cold_meds.append(np.nanmean(vals_cold))
             steady_meds.append(np.nanmean(vals_steady))
-        x = np.arange(len(LANG_ORDER))
+        x = np.arange(len(FIG_LANGS))
         w = 0.35
         ax.bar(x - w/2, cold_meds,   w, label="Cold start",   color="#EF5350")
         ax.bar(x + w/2, steady_meds, w, label="Steady state", color="#42A5F5")
         ax.set_xticks(x)
-        ax.set_xticklabels([LANG_DISPLAY[l] for l in LANG_ORDER], rotation=30, ha="right")
+        ax.set_xticklabels([LANG_DISPLAY[l] for l in FIG_LANGS], rotation=30, ha="right")
         ax.set_title(f"V={vol}")
         ax.set_ylabel("Mean energy (J)")
         ax.grid(True, axis="y", alpha=0.3)
@@ -551,7 +562,7 @@ try:
     # Figure 3: Overhead bar chart (grouped by language, one bar per model)
     plot_lang_display = {k: v.replace("\\#", "#") for k, v in LANG_DISPLAY.items()}
     ratio_data = {}
-    for lang in LANG_ORDER:
+    for lang in FIG_LANGS:
         ratios = []
         for mod in MODEL_ORDER:
             c_med = np.median(get_energy("c", mod, volume=100, phase="steady"))
@@ -560,24 +571,24 @@ try:
         ratio_data[lang] = ratios
 
     fig, ax = plt.subplots(figsize=(7, 3.5))
-    n_lang = len(LANG_ORDER)
+    n_lang = len(FIG_LANGS)
     n_mod  = len(MODEL_ORDER)
     x      = np.arange(n_lang)
-    width  = 0.15
+    width  = 0.13
     offsets = np.linspace(-(n_mod - 1) / 2, (n_mod - 1) / 2, n_mod) * width
 
     for j, (mod, color) in enumerate(zip(MODEL_ORDER, MODEL_COLORS)):
-        vals = [ratio_data[lang][j] for lang in LANG_ORDER]
+        vals = [ratio_data[lang][j] for lang in FIG_LANGS]
         ax.bar(x + offsets[j], vals, width, label=mod, color=color,
                alpha=0.88, edgecolor="white", linewidth=0.4)
 
     ax.axhline(1.0, color="black", linewidth=0.9, linestyle="--", alpha=0.55, zorder=0)
     ax.set_xticks(x)
-    ax.set_xticklabels([plot_lang_display[l] for l in LANG_ORDER], fontsize=10)
+    ax.set_xticklabels([plot_lang_display[l] for l in FIG_LANGS], fontsize=10)
     ax.set_ylabel("Energy overhead relative to C (×)", fontsize=10)
     ax.set_ylim(0, 4.0)
     ax.set_yticks([0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5])
-    ax.legend(fontsize=8.5, ncol=5, loc="upper left", framealpha=0.85, columnspacing=0.8)
+    ax.legend(fontsize=8.5, ncol=6, loc="upper left", framealpha=0.85, columnspacing=0.8)
     ax.grid(True, axis="y", alpha=0.25, linewidth=0.6)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)

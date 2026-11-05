@@ -29,6 +29,7 @@ import onnxruntime as ort
 # ---------------------------------------------------------------------------
 MODEL_EST_MS = {
     "minilm": 15, "modernbert": 80, "gpt2": 70, "vit": 80, "fashionclip": 100,
+    "pythia": 90,
 }
 
 WARMUP_COUNT       = 300
@@ -47,7 +48,7 @@ def load_inputs(inputs_dir: str, model_short: str) -> list[dict]:
     else:
         for i in range(10):
             arr = np.load(os.path.join(sub, f"{i}.npy"))
-            if model_short == "gpt2":
+            if model_short in ("gpt2", "pythia"):
                 inputs_list.append({"input_ids": arr,
                                     "attention_mask": np.ones_like(arr)})
             elif model_short in ("minilm", "modernbert"):
@@ -60,7 +61,7 @@ def load_inputs(inputs_dir: str, model_short: str) -> list[dict]:
 
 
 def run_inference(session, inputs_list, K, input_names, model_short):
-    if model_short == "gpt2":
+    if model_short in ("gpt2", "pythia"):
         id_name   = next((n for n in input_names if "input_id" in n.lower()), input_names[0])
         mask_name = next((n for n in input_names if "attention" in n.lower() or "mask" in n.lower()), None)
         for j in range(K):

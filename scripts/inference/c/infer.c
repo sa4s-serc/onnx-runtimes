@@ -238,7 +238,7 @@ int main(int argc, char *argv[]) {
     const char *phase       = argv[4];
     const char *model_short = argv[5];
 
-    g_is_gpt2        = (strcmp(model_short,"gpt2")==0);
+    g_is_gpt2        = (strcmp(model_short,"gpt2")==0 || strcmp(model_short,"pythia")==0);
     g_is_fashionclip = (strcmp(model_short,"fashionclip")==0);
     int is_steady    = (strcmp(phase,"steady")==0);
     int warmup       = is_steady ? 300 : 0;
@@ -246,6 +246,7 @@ int main(int argc, char *argv[]) {
     int est_ms = 80;
     if(!strcmp(model_short,"minilm")) est_ms=15;
     else if(!strcmp(model_short,"gpt2")) est_ms=70;
+    else if(!strcmp(model_short,"pythia")) est_ms=90;
     else if(!strcmp(model_short,"fashionclip")) est_ms=100;
     int R = 1;
     if (is_steady) { int d=K*est_ms; R=(100+d-1)/d; if(R<1)R=1; }

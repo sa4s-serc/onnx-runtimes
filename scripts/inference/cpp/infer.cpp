@@ -152,7 +152,7 @@ int main(int argc, char *argv[]) {
     std::string phase        = argv[4];
     std::string model_short  = argv[5];
 
-    bool is_gpt2        = (model_short == "gpt2");
+    bool is_gpt2        = (model_short == "gpt2" || model_short == "pythia");
     bool is_fashionclip = (model_short == "fashionclip");
     bool is_steady      = (phase == "steady");
     int  warmup_count   = is_steady ? 300 : 0;
@@ -160,6 +160,7 @@ int main(int argc, char *argv[]) {
     int est_ms = 80;
     if (model_short == "minilm") est_ms = 15;
     else if (model_short == "gpt2") est_ms = 70;
+    else if (model_short == "pythia") est_ms = 90;
     else if (model_short == "fashionclip") est_ms = 100;
 
     int R = 1;

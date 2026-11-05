@@ -182,7 +182,7 @@ public class Infer {
         String phase       = args[3];
         String modelShort  = args[4];
 
-        boolean isgpt2        = modelShort.equals("gpt2");
+        boolean isgpt2        = modelShort.equals("gpt2") || modelShort.equals("pythia");
         boolean isfashionclip = modelShort.equals("fashionclip");
         boolean isSteady      = phase.equals("steady");
         int     warmupCount   = isSteady ? 300 : 0;
@@ -190,6 +190,7 @@ public class Infer {
         int estMs = 80;
         if (modelShort.equals("minilm")) estMs = 15;
         else if (modelShort.equals("gpt2")) estMs = 70;
+        else if (modelShort.equals("pythia")) estMs = 90;
         else if (modelShort.equals("fashionclip")) estMs = 100;
 
         int R = 1;

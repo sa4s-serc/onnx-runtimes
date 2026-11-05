@@ -55,6 +55,7 @@ MODEL_FILES = {
     "gpt2":        "gpt2.onnx",
     "vit":         "vit-face-expression.onnx",
     "fashionclip": "fashion-clip.onnx",
+    "pythia":      "pythia-160m.onnx",
 }
 
 MODEL_IDS = {
@@ -63,10 +64,12 @@ MODEL_IDS = {
     "gpt2":        "openai-community/gpt2",
     "vit":         "trpakov/vit-face-expression",
     "fashionclip": "patrickjohncyh/fashion-clip",
+    "pythia":      "EleutherAI/pythia-160m",
 }
 
 MODEL_EST_MS = {
     "minilm": 15, "modernbert": 80, "gpt2": 70, "vit": 80, "fashionclip": 100,
+    "pythia": 90,
 }
 
 WARMUP_COUNT = 300
@@ -143,6 +146,20 @@ def runner_cmd(lang: str, model_path: str, inputs_dir: str,
         script = os.path.join(REPO_ROOT, "scripts", "inference", "ruby", "infer.rb")
         return ["ruby", script] + runner_args
 
+    # ruby34/ruby40 run with YJIT enabled (--yjit): these labels denote the
+    # modern Ruby interpreters in their JIT-enabled configuration, the mode
+    # blessed as default-recommended from 3.x onward. Contrast with `ruby`
+    # (MRI 3.0.2), which predates YJIT.
+    if lang == "ruby34":
+        script = os.path.join(REPO_ROOT, "scripts", "inference", "ruby", "infer.rb")
+        ruby = os.path.expanduser("~/.rbenv/versions/3.4.9/bin/ruby")
+        return [ruby, "--yjit", script] + runner_args
+
+    if lang == "ruby40":
+        script = os.path.join(REPO_ROOT, "scripts", "inference", "ruby", "infer.rb")
+        ruby = os.path.expanduser("~/.rbenv/versions/4.0.5/bin/ruby")
+        return [ruby, "--yjit", script] + runner_args
+
     if lang == "rust":
         binary = os.path.join(REPO_ROOT, "scripts", "inference", "rust",
                               "target", "release", "onnx_inference")
@@ -192,6 +209,13 @@ def main() -> None:
 
     env = os.environ.copy()
     env.setdefault("ORT_DYLIB_PATH", LIB_ORT)
+    # rbenv rubies use their own versioned gem dirs; the GEM_PATH exported by
+    # measure.sh (system ruby 3.0) injects stale native extensions that print
+    # "Ignoring <gem> because its extensions are not built" to stderr, which
+    # corrupts the JSON timing report.  Clear it so each ruby finds its own gems.
+    if language in ("ruby34", "ruby40"):
+        env.pop("GEM_PATH", None)
+        env.pop("GEM_HOME", None)
 
     proc = subprocess.Popen(
         cmd,
